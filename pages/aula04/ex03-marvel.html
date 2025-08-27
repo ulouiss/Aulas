@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes da marvel</title>
+    <link rel="stylesheet" href="../../styles/style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98vh;
+            gap: 50px;
+        }
+        table {
+            width: 80vw;
+            height: 80vh;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        td, th {
+            transition: 2s;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .azulescuro {
+            background-color: darkblue;
+            color: white;
+        }
+        .azul {
+            background-color: blue;
+            color: white;
+        }
+        .branco {
+            background-color: white;
+            color: black;
+        }
+        .vermelho {
+            background-color: lightcoral;
+            color: white;
+        }
+        .azulzinho {
+            background-color: cornflowerblue;
+            color: white;
+        }
+        .amarelo {
+            background-color: gold;
+            color: black;
+        }
+        .roxo {
+            background-color: blueviolet;
+            color: white;
+        }
+        td:hover {
+            transition: 0.3s;
+            background-color: red;
+            cursor: pointer;
+        }
+        th:hover {
+            transition: 0.3s;
+            background-color: darkred;
+            cursor: pointer;
+        }
+        .conteudo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <a href="ex03.html" class="transitar"><button>&larr;</button></button></a>
+        <table>
+            <tr>
+                <th colspan="4" class="azulescuro">Universo Marvel</th>
+            </tr>
+            <tr class="azulescuro">
+                <th>Atores</th>
+                <th>Obra</th>
+                <th>Categoria</th>
+                <th>Ano</th>
+            </tr>
+            <tr class="azul">
+                <th colspan="4">Filmes</th>
+            </tr>
+            <tr class="branco">
+                <td rowspan="2">Robert Downey Jr.</td>
+                <td class="vermelho">Homem de Ferro</td>
+                <td class="vermelho">Filme</td>
+                <td>2008</td>
+            </tr>
+            <tr class="branco">
+                <td class="vermelho">Vingadores Ultimato</td>
+                <td class="vermelho">Filme</td>
+                <td>2019</td>
+            </tr>
+            <tr class="branco">
+                <td>Chadwick Boseman</td>
+                <td class="vermelho">Pantera Negra</td>
+                <td class="vermelho">Filme</td>
+                <td>2018</td>
+            </tr>
+            <tr class="azulescuro">
+                <th colspan="4">Séries</th>
+            </tr>
+            <tr class="branco">
+                <td rowspan="2">Tom Hiddleston</td>
+                <td class="azulzinho">Loki (Disney+)</td>
+                <td class="azulzinho">Série</td>
+                <td>2021</td>
+            </tr>
+            <tr class="branco">
+                <td class="azulzinho">Loki - 2ª Temporada</td>
+                <td class="azulzinho">Série</td>
+                <td>2023</td>
+            </tr>
+            <tr class="branco">
+                <td>Elizabeth Olsen</td>
+                <td class="azulzinho">WandaVision</td>
+                <td class="azulzinho">Série</td>
+                <td>2021</td>
+            </tr>
+            <tr class="azulescuro">
+                <th colspan="4">Animações</th>
+            </tr>
+            <tr class="branco">
+                <td rowspan="2">Vários atores (dublagem)</td>
+                <td class="amarelo">What If...?</td>
+                <td class="amarelo">Animação</td>
+                <td>2021</td>
+            </tr>
+            <tr class="branco">
+                <td class="amarelo">Homem Aranha: No Aranhaverso</td>
+                <td class="amarelo">Animação</td>
+                <td>2018</td>
+            </tr>
+            <tr class="azulescuro">
+                <th colspan="4">Especiais</th>
+            </tr>
+            <tr class="branco">
+                <td>Chris Pratt</td>
+                <td class="roxo">Guardiões da Galáxia: Especial</td>
+                <td class="roxo">Especial</td>
+                <td>2022</td>
+            </tr>
+            <tr class="azulescuro">
+                <th colspan="4">Total de registros: 11</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

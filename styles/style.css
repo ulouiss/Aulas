@@ -107,7 +107,7 @@
 
         #tema {
             background-color: black;
-            background-image: url(/assets/icone-lua.png);
+            background-image: url(../assets/imagens/icone-lua.png);
             background-size: contain;
         }
 
@@ -142,7 +142,7 @@
         }
 
     .imagemfundo {
-            background-image: url(/assets/Spotify.png);
+            background-image: url(../assets/imagens/Spotify.png);
             background-repeat: no-repeat;
             background-size: contain;
             width: 90%;
@@ -157,6 +157,7 @@
         .centralizar {
             display: flex;
             justify-content: center;
+            flex-direction: column;
         }
 
         
