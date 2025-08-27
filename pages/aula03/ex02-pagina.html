@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio cursos TI</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 60%;
+            
+        }
+        td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 30px;
+            padding: 10px;
+            font-size: 2em;
+        }
+        .amarelo {
+            background-color: yellow;
+        }
+        .rosa {
+            background-color: magenta;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="5" style="background-color: lightgreen;">Cadastro de Cursos de TI</th>
+        </tr>
+        <tr style="background-color: lightsteelblue;">
+            <th>ID</th>
+            <th>Curso:</th>
+            <th>Carga horária:</th>
+            <th>Professor:</th>
+            <th>Cidade:</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Python</td>
+            <td>40</td>
+            <td>Ana</td>
+            <th rowspan="2" class="amarelo">Salto</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <th class="rosa">PowerBI</th>
+            <td>32</td>
+            <td>Sérgio</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <th class="rosa">Java</th>
+            <td>80</td>
+            <th rowspan="2" class="amarelo">Roberto</th>
+            <td>Indaiatuba</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>HTML</td>
+            <td>50</td>
+            <td>Campinas</td>
+        </tr>
+        <tr>
+            <th colspan="5" style="background-color: salmon; color: white;">Curso de informática básica</th>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Excel</td>
+            <td>60</td>
+            <td>Fabiana</td>
+            <th rowspan="2" class="amarelo">Campinas</th>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Word</td>
+            <td>20</td>
+            <td>Roberto</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    
+        <div class="sidebar">
+        <nav class="navegacao">
+            <ul type="none">
+                <li><a href="/index.html">Aula 1</a></li>
+                <li><a href="/pages/aula02/listas.html">Aula 2</a></li>
+                <li><a href="#">Aula 3</a></li>
+                <li><a href="/pages/aula04/tabela.html">Aula 4</a></li>
+                <li><a href="#">Aula 5</a></li>
+            </ul>
+        </nav>
+        <button id="tema"></button>
+    </div>
+
+
+    <div class="corpo">
+        <div class="pai">
+            <nav class="bloco-texto">
+
+                <h1>Aula 03 de HTML e CSS</h1>
+                <hr>
+                <h2>Tabelas</h2>
+                <p>Para criar uma tabela, você usa a tag <code>&lt;table&gt;</code>, usando <code>&lt;tr&gt;</code> para criar uma linha e <code>&lt;td&gt;</code> para criar uma coluna (uma célula), ou caso queira adicionar um título</p>
+                <div style="display: flex; justify-content: center;">
+                    <table>
+                        <tr class="trtitulo">
+                            <th colspan="4" style="text-align: center;">Alunos do SENAI</th>
+                        </tr>
+                        <tr>
+                            <td>Nomes</td>
+                            <td>Telefones</td>
+                            <td>Emails</td>
+                        </tr>
+                        <tr>
+                            <td class="negrito">Luis</td>
+                            <td>(19) 99676-3819</td>
+                            <td>luis.silva@aluno.senai.br</td>
+                        </tr>
+                        <tr>
+                            <td class="negrito">Enzo</td>
+                            <td>(11) 99164-2701</td>
+                            <td>enzo.reis@aluno.senai.br</td>
+                        </tr>
+                        <tr>
+                            <td class="negrito">Henry</td>
+                            <td>(19) 99177-2200</td>
+                            <td>henry.kizaki@aluno.senai.br</td>
+                        </tr>
+                        <tr>
+                            <td class="negrito" rowspan="2">Felipe</td>
+                            <td>(19) 99884-3435</td>
+                            <td>felipe.franca@aluno.senai.br</td>
+                        </tr>
+                        <tr>
+                            <td>(19) 98551-6449</td>
+                            <td>felipe.eduardo@aluno.senai.br</td>
+                        </tr>
+                    </table>
+                </div>
+            </nav>
+
+
+            
+
+
+        </div>
+        <a href="ex02.html" class="transitar"><button>&rarr;</button></button></a>
+    </div>
+    <script src="/scripts/alterartema.js"></script>
+
+</body>
+</html>

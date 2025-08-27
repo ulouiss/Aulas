@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <nav class="navegacao">
+            <ul type="none">
+                <li><a href="/index.html">Aula 1</a></li>
+                <li><a href="#">Aula 2</a></li>
+                <li><a href="/pages/aula03/tabelas.html">Aula 3</a></li>
+                <li><a href="/pages/aula04/tabela.html">Aula 4</a></li>
+                <li><a href="#">Aula 5</a></li>
+            </ul>
+        </nav>
+        <button id="tema"></button>
+    </div>
+
+
+
+
+    <div class="corpo">
+        <a href="listas.html" class="transitar"><button>&larr;</button></a>
+        <div class="pai">
+            <nav class="bloco-texto">
+                <h1>Aula 02 de HTML e CSS</h1>
+                <hr>
+                <h2>Links</h2>
+                <p>Aqui, vamos aprender a fazer links internos, externos e de âncora.</p>
+                <p>O primeiro tipo de link é <strong>interno</strong>, ou seja, você navega dentro das páginas que estão nos seus arquivos do site, as que você mesmo criou, especificando o local onde elas estão:  <code>&lt;a href="pages/nome.html"&gt;</code>  . Lembrando que você deve localizar a pasta correta, colocando um  <code>../</code>  para voltar para o diretório anteriou ou simplesmente um  <code>/</code>  para voltar para sua pasta raiz da página</p>
+                <p>Caso você queira redirecionar o usuário para uma página que seja fora da sua (de outra pessoa), você ao invez de especificar o diretório (local), você indica o URL da página que quer:  <code>&lt;a href="https://link.com/"&gt;</code>  .</p>
+                <p>O link possui vários estados, podendo ser hover (mouse passando em cima), visited (depois de visitado) e active (quando você clica no link). Cada um deles pode ser individualmente alterado, podendo mudar qualquer propriedade do CSS com esses estados.</p>
+                <p>Você também pode criar um link com um arquivo para download, que é básicamente a mesma coisa do link interno, mas ao invés de apontar o local para um arquivo .html, você aponta para outro, como <a href="/assets/Coiso baixavel.docx">esse aqui</a>.</p>
+            </nav>
+        </div>
+        <a href="perguntas.html" class="transitar"><button>&rarr;</button></button></a>
+    </div>
+    <script src="/scripts/alterartema.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <style>
+        table {
+            width: 100%;
+            border: 1px solid black;
+            padding: 10px;
+            margin: auto;
+        }
+        td {
+            text-align: center;
+            transition: 2s;
+        }
+        #cor-do-titulo {
+            background-color: blueviolet;
+        }
+        td:hover, th:hover{
+            background-color: cyan;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="sidebar">
+        <nav class="navegacao">
+            <ul type="none">
+                <li><a href="/index.html">Aula 1</a></li>
+                <li><a href="/pages/aula02/listas.html">Aula 2</a></li>
+                <li><a href="/pages/aula03/tabelas.html5">Aula 3</a></li>
+                <li><a href="#">Aula 4</a></li>
+                <li><a href="#">Aula 5</a></li>
+            </ul>
+        </nav>
+        <button id="tema"></button>
+    </div>
+
+
+    <div class="corpo">
+        <div class="pai">
+            <nav class="bloco-texto">
+
+                <h1>Aula 04 de HTML e CSS</h1>
+                <hr>
+                <h2>Tabela - tags semânticas</h2>
+                <p>Existem algumas tags que quando colocadas no seu site, ajudam o algorítmo dos navegadores à localizar seu site, melhorando o sistema de buscas que pode promover sites mais relacionados à busca do usuário de acordo com essas tags semânticas. Elas podem principalmente recomendar os sites mais bem organizados e com mais tags semânticas com recursos de acessibilidade, mostrando mais em cima os melhores sites para todos.</p>
+                <div class="centralizar">
+                    <table>
+                        <thead> <!-- Cabeçalho da tabela -->
+                            <tr>
+                                <th colspan="4" id="cor-do-titulo">Estoque de produtos</th>
+                            </tr>
+                        </thead>
+                        <tbody> <!-- Corpo da tabela -->
+                            <tr>
+                                <td>ID</td>
+                                <td>Descrição</td>
+                                <td>Valor</td>
+                                <td>Marca</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Televisão</td>
+                                <td>R$ 7.800,00</td>
+                                <td>LG</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Celular</td>
+                                <td>R$ 10.500,00</td>
+                                <td>Apple</td>
+                            </tr>
+                        </tbody>
+                        <tfoot> <!-- Rodapé da tabela -->
+                            <tr>
+                                <td colspan="4">Lista completa de produtos</td>
+                            </tr>
+                        </tfoot>
+                        <tr>
+                    
+                        </tr>
+                    </table>
+                </div>
+            </nav>
+
+
+            
+
+
+        </div>
+        <a href="git.html" class="transitar"><button>&rarr;</button></button></a>
+        
+    </div>
+    <script src="/scripts/alterartema.js"></script>
+
+</body>
+</html>
